@@ -1,0 +1,7 @@
+groups = {
+    1xx ==> Formational (تشکیلی),
+    2xx ==> Successful (تایید شده),
+    3xx ==> Redirection (تغییر مسیر),
+    4xx ==> Error (خطا),
+    5xx ==> Server Error (خطای سرور)
+}
