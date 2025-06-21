@@ -35,6 +35,9 @@ install PostgreSQL
 4 ==> first insert to table {
     INSERT INTO example(example, example2)
     VALUES
-    ('test', 123)
-    ('test2', 456)
+    ('test', 123),
+    ('test2', 456);
+}
+5 ==> select information {
+    SELECT * FROM example;
 }
