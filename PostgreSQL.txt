@@ -22,3 +22,5 @@ virtual machine with vagrant
 
 day 4
 install PostgreSQL
+
+1 ==> download and install PostgreSQL
