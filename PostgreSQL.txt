@@ -24,3 +24,4 @@ day 4
 install PostgreSQL
 
 1 ==> download and install PostgreSQL
+2 ==> create user and set password
