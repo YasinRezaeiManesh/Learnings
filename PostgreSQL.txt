@@ -25,4 +25,10 @@ install PostgreSQL
 
 1 ==> download and install PostgreSQL
 2 ==> create user and set password
-3 ==> first query and create first table
+3 ==> first query and create first table {
+    CREATE TABLE example(
+        id SERIAL PRIMARY KEY,
+        example TEXT,
+        example INTEGER
+    );
+}
