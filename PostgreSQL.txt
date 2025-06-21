@@ -18,3 +18,7 @@ virtual machine with vagrant
 1 ==> Download and install vmware and vagrant
 2 ==> create dir djtest
 3 ==> create first vagrant file
+
+
+day 4
+install PostgreSQL
