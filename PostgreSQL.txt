@@ -60,3 +60,8 @@ learning...
     ORDER BY test DESC; -> نزولی
 }
 
+3 ==> Update field {
+    SELECT * FROM users
+    SET test = 'newtest'
+    WHERE name = example -> اگه مشخص نکنی کدوم فیلد همه رو عوض میکنه
+}
