@@ -51,3 +51,12 @@ learning...
     WHERE name=test;
 }
 
+2 ==> Order By {
+    SELECT * FROM example
+    ORDER BY test ASC; -> صعودی
+}
+{
+    SELECT * FROM example
+    ORDER BY test DESC; -> نزولی
+}
+
