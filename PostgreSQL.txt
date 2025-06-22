@@ -41,3 +41,8 @@ install PostgreSQL
 5 ==> select information {
     SELECT * FROM example;
 }
+
+
+day 5
+learning...
+
