@@ -65,3 +65,8 @@ learning...
     SET test = 'newtest'
     WHERE name = example -> اگه مشخص نکنی کدوم فیلد همه رو عوض میکنه
 }
+
+4 ==> Deleting {
+    DELETE FROM example
+    WHERE name = 'test'
+}
