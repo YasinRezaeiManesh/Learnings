@@ -46,3 +46,8 @@ install PostgreSQL
 day 5
 learning...
 
+1 ==> filtering {
+    SELECT * FROM example
+    WHERE name=test;
+}
+
