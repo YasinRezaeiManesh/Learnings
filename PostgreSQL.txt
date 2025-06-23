@@ -97,3 +97,9 @@ learning...
 3 ==> Drop Table {
     DROP TABLE IF EXISTS example; --> این میگ اگ جدول وجود داشت پاکش کن اگه نداشت ارور نده
 }
+
+4 ==> Left Join {
+    SELECT orders.id, orders.product_name, users.name, orders.amount
+    FROM orders
+    LEFT JOIN users ON orders.user_id = users.id; --> null این همون جوین بالا هستش ولی فرقش اینه توی کوئری کاربرهایی که از جدول کاربران حذف شدن ولی سفارششون هست رو نشون میده ولی به جای اسمشون میزاره
+}
