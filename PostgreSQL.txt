@@ -70,3 +70,7 @@ learning...
     DELETE FROM example
     WHERE name = 'test'
 }
+
+
+day 6
+learning...
