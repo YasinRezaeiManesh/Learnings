@@ -87,3 +87,9 @@ learning...
         FOREIGN KEY (user_id) REFERENCES users(id)
     );
 }
+
+2 ==> Show orderings {
+    SELECT orders.id, users.name, orders.product_name, orders.amount
+    FROM orders
+    JOIN users ON orders.user_id = users.id  --> این خط میگ ک جدول کاربر ها رو به جدول سفارش ها وصل کن به شرطی ایدی کاربر در جدول سفارش برابر باشه با ایدی کاربر در جدول کاربران
+}
