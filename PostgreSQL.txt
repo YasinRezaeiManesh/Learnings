@@ -74,3 +74,16 @@ learning...
 
 day 6
 learning...
+1 ==> Relationships (Foreign Key) {
+    CREATE TABLE users(
+        id SERIAL PRIMARY KEY,
+        name text,
+    );
+    CREATE TABLE orders(
+        id SERIAL PRIMARY KEY,
+        user_id INTEGER,
+        product_name TEXT,
+        amount NUMERIC,
+        FOREIGN KEY (user_id) REFERENCES users(id)
+    );
+}
