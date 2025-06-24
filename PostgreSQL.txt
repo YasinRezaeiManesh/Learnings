@@ -118,3 +118,10 @@ learning ...
     FROM orders
     FULL JOIN users ON orders.user_id; --> این همه رو نشون میده ینی مثلا کاربر بود سفارش نداشت به جا سفارش نال میزاره یا کاربر نبود سفارش بود به جا کاربر نال میزاره
 }
+
+3 ==> Group BY {
+    SELECT users.name, SUM (orders.amount) --> sum, ave, count... این دستورات بلدی همون
+    FROM users
+    JOIN orders ON users.id = orders.user_id
+    GROUP BY users.name; --> این دستور میاد بر اساس چیزی که بش میگی دسته بندی میکنه ، مثلا اینجا میاد سفارش هایی که اسماشون مشترکه جدا میکنه و مجموع سفارششون رو حساب میکنه
+}
