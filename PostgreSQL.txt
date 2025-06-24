@@ -120,7 +120,7 @@ learning ...
 }
 
 3 ==> Group BY {
-    SELECT users.name, SUM (orders.amount) --> sum, ave, count... این دستورات بلدی همون
+    SELECT users.name, SUM (orders.amount) --> sum, avg, count... این دستورات بلدی همون
     FROM users
     JOIN orders ON users.id = orders.user_id
     GROUP BY users.name; --> این دستور میاد بر اساس چیزی که بش میگی دسته بندی میکنه ، مثلا اینجا میاد سفارش هایی که اسماشون مشترکه جدا میکنه و مجموع سفارششون رو حساب میکنه
@@ -128,6 +128,6 @@ learning ...
 
 4 ==> Funcs {
     SUM --> جمع
-    AVE --> میانگین
+    AVG --> میانگین
     count --> تعداد
 }
