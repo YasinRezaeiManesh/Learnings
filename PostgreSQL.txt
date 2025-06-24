@@ -112,3 +112,9 @@ learning ...
     FROM orders
     RIGHT JOIN users on orders.user_id; --> null این برعکس بالاییه یعنی مثلا کاربرهایی که سفارشی ندارن رو نشون میده ولی به جای سفارش میزاره
 }
+
+2 ==> Full Join {
+    SELECT orders.id, orders.product_name, users.name, orders.amount
+    FROM orders
+    FULL JOIN users ON orders.user_id; --> این همه رو نشون میده ینی مثلا کاربر بود سفارش نداشت به جا سفارش نال میزاره یا کاربر نبود سفارش بود به جا کاربر نال میزاره
+}
