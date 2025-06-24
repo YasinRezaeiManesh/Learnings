@@ -106,3 +106,9 @@ learning...
 
 day 7
 learning ...
+
+1 ==> Right Join {
+    SELECT orders.id, orders.product_name, users.name, orders.amount
+    FROM orders
+    RIGHT JOIN users on orders.user_id; --> null این برعکس بالاییه یعنی مثلا کاربرهایی که سفارشی ندارن رو نشون میده ولی به جای سفارش میزاره
+}
