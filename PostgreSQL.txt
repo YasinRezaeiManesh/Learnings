@@ -131,3 +131,12 @@ learning ...
     AVG --> میانگین
     count --> تعداد
 }
+
+5 ==> filtering {
+    SELECT users.name, SUM(orders.amount) AS total_amount
+    FROM users
+    JOIN orders ON users.id = orders.user_id
+    GROUP BY users.name
+    HAVING SUM(orders.amount) > 5000000; --> این دستور مثل همون وِر هستش منتها این مال بعد از گروپ بای هست اون برای قبل گروپ بای
+    به این دلیل از اسم متغیر در دستور هوینگ استفاده نکردیم چون شرط قبل از نام گذاری اجرا میشه در کوئری
+}
