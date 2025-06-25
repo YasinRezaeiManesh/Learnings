@@ -158,3 +158,4 @@ First Django Project with PostgreSQL
 
 1 ==> Create db and user pgdb
 2 ==> Create Django Project in Pycharm
+3 ==> Install module psycopg2-binary
