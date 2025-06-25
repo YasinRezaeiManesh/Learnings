@@ -151,3 +151,7 @@ learning ...
     7. ORDER BY
     8. LIMIT
 }
+
+
+day 8
+First Django Project with PostgreSQL
