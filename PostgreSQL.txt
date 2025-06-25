@@ -160,3 +160,4 @@ First Django Project with PostgreSQL
 2 ==> Create Django Project in Pycharm
 3 ==> Install module psycopg2-binary
 4 ==> Fix db postgresql
+5 ==> Migrate
