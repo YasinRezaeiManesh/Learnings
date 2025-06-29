@@ -161,3 +161,6 @@ First Django Project with PostgreSQL
 3 ==> Install module psycopg2-binary
 4 ==> Fix db postgresql
 5 ==> Migrate
+
+day 9
+permissions
