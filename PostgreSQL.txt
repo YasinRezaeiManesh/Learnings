@@ -169,3 +169,4 @@ permissions
 2 -> GRANT CREATE ON SCHEMA public TO your_user;
 3 -> GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO your_user;
 4 -> GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO your_user;
+5 -> ALTER SCHEMA public OWNER TO your_user;
